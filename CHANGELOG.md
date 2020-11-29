@@ -1,5 +1,26 @@
 # Changelog
 
+## 0.1.0 (2020-11-29)
+
+
+### Features
+
+* hoist shared libs to PRODUCT_DIR for all platforms ([1248a9d](https://www.github.com/targos/gyp-next/commit/1248a9dea3b49f47c236153bff76d89d6e7874f7))
+* port "add support for MSVC cross-compilation" from node ([72ea11b](https://www.github.com/targos/gyp-next/commit/72ea11b74407fcb2ffb41ec7d330008b2b5f6d81))
+* support source files with duplicate basename ([#62](https://www.github.com/targos/gyp-next/issues/62)) ([72eddfe](https://www.github.com/targos/gyp-next/commit/72eddfe67f0216c3109f59efdb38dd9a2f8dddc5))
+
+
+### Bug Fixes
+
+* cmake on python 3 ([fd61f5f](https://www.github.com/targos/gyp-next/commit/fd61f5faa5275ec8fc98e3c7868c0dd46f109540))
+* compile_commands.json generation ([#22](https://www.github.com/targos/gyp-next/issues/22)) ([afa06c4](https://www.github.com/targos/gyp-next/commit/afa06c4d2d612ef9cff86eedad53e7503d1453fb))
+* do not rewrite absolute paths to avoid long paths ([#74](https://www.github.com/targos/gyp-next/issues/74)) ([c2ccc1a](https://www.github.com/targos/gyp-next/commit/c2ccc1a81f7f94433a94f4d01a2e820db4c4331a))
+* only include MARMASM when toolset is target ([5a2794a](https://www.github.com/targos/gyp-next/commit/5a2794aefb58f0c00404ff042b61740bc8b8d5cd))
+* xcode cmake parsing ([eefe8d1](https://www.github.com/targos/gyp-next/commit/eefe8d10e99863bc4ac7e2ed32facd608d400d4b))
+* **msvs:** correctly rename object files for absolute paths ([#71](https://www.github.com/targos/gyp-next/issues/71)) ([f2c7618](https://www.github.com/targos/gyp-next/commit/f2c761838babf11024a3e6fab96d1e5a9dc1f556))
+* port ab4aca868d from upstream ([#11](https://www.github.com/targos/gyp-next/issues/11)) ([6f4834e](https://www.github.com/targos/gyp-next/commit/6f4834e9c38c91d5369b8c1e585e8fc8e58decb0))
+* upstream 50317c3 from nodejs/node ([1db1392](https://www.github.com/targos/gyp-next/commit/1db139210c8c60a1e32f636b6962c534f49dc502)), closes [/github.com/nodejs/node/commit/50317c38a4511914e5eb69d6f05f290087887cf7#diff-50366fa1de3b4a645c172ab704f9155](https://www.github.com/targos//github.com/nodejs/node/commit/50317c38a4511914e5eb69d6f05f290087887cf7/issues/diff-50366fa1de3b4a645c172ab704f9155)
+
 ### [0.6.2](https://www.github.com/nodejs/gyp-next/compare/v0.6.1...v0.6.2) (2020-10-16)
 
 
