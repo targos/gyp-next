@@ -1,5 +1,13 @@
 # Changelog
 
+### [0.6.3](https://www.github.com/targos/gyp-next/compare/v0.6.2...v0.6.3) (2021-08-24)
+
+
+### Bug Fixes
+
+* cmake on python 3 ([fd61f5f](https://www.github.com/targos/gyp-next/commit/fd61f5faa5275ec8fc98e3c7868c0dd46f109540))
+* xcode cmake parsing ([eefe8d1](https://www.github.com/targos/gyp-next/commit/eefe8d10e99863bc4ac7e2ed32facd608d400d4b))
+
 ### [0.6.2](https://www.github.com/nodejs/gyp-next/compare/v0.6.1...v0.6.2) (2020-10-16)
 
 
