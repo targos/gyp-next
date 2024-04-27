@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.17.0](https://github.com/targos/gyp-next/compare/v0.16.2...v0.17.0) (2024-04-27)
+
+
+### Features
+
+* generate compile_commands.json with ninja ([#228](https://github.com/targos/gyp-next/issues/228)) ([7b20b46](https://github.com/targos/gyp-next/commit/7b20b4673d8cf46ff61898eb19569007d55c854a))
+
+
+### Bug Fixes
+
+* failed to detect flavor if compiler path include white spaces ([#240](https://github.com/targos/gyp-next/issues/240)) ([f3b9753](https://github.com/targos/gyp-next/commit/f3b9753e7526377020e7d40e66b624db771cf84a))
+* support cross compiling for wasm with make generator ([#222](https://github.com/targos/gyp-next/issues/222)) ([de0e1c9](https://github.com/targos/gyp-next/commit/de0e1c9a5791d1bf4bc3103f878ab74814864ab4))
+* update Ruff to 0.3.1 ([876ccaf](https://github.com/targos/gyp-next/commit/876ccaf5629e1b95e13aaa2b0eb6cbd08fa80593))
+
 ## [0.16.2](https://github.com/nodejs/gyp-next/compare/v0.16.1...v0.16.2) (2024-03-07)
 
 
